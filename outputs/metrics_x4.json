@@ -1,0 +1,28 @@
+{
+  "data_source": "cifar10",
+  "training_data": "cifar10",
+  "scale": 4,
+  "noise": "mixed",
+  "stages": {
+    "noisy_lr (vs clean LR)": {
+      "psnr": 14.907073974609375,
+      "ssim": 0.5522431135177612
+    },
+    "denoised (vs clean LR)": {
+      "psnr": 22.524150848388672,
+      "ssim": 0.7158729434013367
+    },
+    "bicubic baseline (vs original)": {
+      "psnr": 13.900583267211914,
+      "ssim": 0.30312561988830566
+    },
+    "U-Net colorized+SR (vs original)": {
+      "psnr": 16.879201889038086,
+      "ssim": 0.289721816778183
+    },
+    "GAN refined (vs original)": {
+      "psnr": 16.600343704223633,
+      "ssim": 0.23837953805923462
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "data_source": "user image: C:\\Users\\Uday\\Downloads\\automobile1.png",
+  "training_data": "n/a (all checkpoints loaded)",
+  "scale": 2,
+  "noise": "mixed",
+  "stages": {
+    "noisy_lr (vs clean LR)": {
+      "psnr": 12.912367820739746,
+      "ssim": 0.5310307145118713
+    },
+    "denoised (vs clean LR)": {
+      "psnr": 19.180978775024414,
+      "ssim": 0.8074058890342712
+    },
+    "bicubic baseline (vs original)": {
+      "psnr": 14.192601203918457,
+      "ssim": 0.37544506788253784
+    },
+    "U-Net colorized+SR (vs original)": {
+      "psnr": 18.749637603759766,
+      "ssim": 0.675858199596405
+    },
+    "GAN refined (vs original)": {
+      "psnr": 18.317825317382812,
+      "ssim": 0.6274111270904541
+    }
+  }
+}
